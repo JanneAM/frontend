@@ -1,0 +1,35 @@
+body {
+  background-color: #42291c;
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  width: 20%;
+}
+
+header {
+  background-color: #e9fadd;
+  padding: 1em;
+}
+h1 {
+  color: #b8e4c9;
+}
+
+p {
+  color: #e9fadd;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #3f5468;
+  font-weight: bold;
+}
+
+header ul li {
+  display: inline-block;
+  padding: 1em;
+}
