@@ -1,0 +1,21 @@
+html{
+    height: 100%;
+}
+body{ 
+    text-align: center;
+    background-image: linear-gradient(white, rgb(241, 241, 133));
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+ }
+img{
+    width: 10%;
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p{
+    font-family: monospace;
+}
