@@ -1,0 +1,15 @@
+html {
+  height: 100%;
+}
+body {
+  background-color: #222831;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  color: #29a19c;
+}
+
+p {
+  color: #a3f7bf;
+}
