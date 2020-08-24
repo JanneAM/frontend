@@ -1,0 +1,26 @@
+p {
+  font-family: "Lato", sans-serif;
+}
+
+table,
+td,
+th {
+  border: 1px solid rgb(25, 25, 43);
+  border-collapse: collapse;
+}
+
+table {
+  margin: 20px auto;
+  max-width: 80%;
+}
+
+td,
+th {
+  min-width: 200px;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
