@@ -1,0 +1,13 @@
+From today with portfolio: use semantic HTML
+    -<header>, inside will be <nav>
+    -Logos need to be clickable and take to home
+    -Use <nav> inside will be ul for navigation, page should be one pager -> all content in one page. From nav you just scroll to content
+    -Smooth scrolling when clicking navigation
+    -<main>:
+        -all sections can be divs
+        -contains hero banner which contains big text with one word with different color, has a big picture in background
+        -Past section has background color for div and other color for content, contains heading, img and paragraph, big gap between lines(readability)
+        -Present section is full width, and has two columns that are equally wide (left column with picture and right column with headline and paragraph),
+        -Future, contains same specs as past, except has photo in the background for div
+    <footer>
+        -contains only copyright

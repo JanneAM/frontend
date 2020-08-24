@@ -2,37 +2,175 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* border-color: black;
+  border-width: 3px;
+  border-style: solid;*/
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
 }
 
 body {
-  background-color: #ecf2fc;
-  font-family: "Open Sans", sans-serif;
+  background-color: #fff;
+  font-family: "Raleway", sans-serif;
 }
 
-h1 {
-  color: #29a19c;
+main {
+  width: 100%;
 }
 
 p {
-  color: #a3f7bf;
+  color: #0b160a;
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#logo:hover {
+  color: #376b2e !important;
+}
+
+#logo {
+  font-family: "Pacifico", cursive;
+  color: #fff;
+  margin: 5px 20px;
+  font-size: 2.5em;
+  text-decoration: none;
+}
+
+header {
+  background-color: #0b160a;
+  display: flex;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 nav {
-  background-color: #222831;
+  width: 100%;
+  margin: auto;
 }
 
 nav ul {
   text-align: right;
-  padding-right: 10vh;
+  padding-right: 5vh;
 }
 
 li {
   display: inline-block;
   padding: 1%;
   font-size: 1.5em;
-  color: #c7f7d7;
+  font-weight: bold;
+  color: #61c250;
 }
 
-nav li:hover {
-  background-color: #29a19c;
+nav a:hover {
+  color: #376b2e;
+}
+
+#hero {
+  background-image: url("/img/ave-calvar-s-YtQJg1oNg-unsplash.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 900px;
+  margin: auto;
+  text-align: center;
+  padding: 20vh;
+}
+
+#hero h1 {
+  font-size: 3em;
+  color: #baf0b0;
+  font-family: "Raleway", sans-serif;
+  margin-top: 250px;
+}
+
+.whiteFont {
+  color: #fff !important;
+  font-style: italic;
+}
+
+#past {
+  background-color: #fff;
+  color: #376b2e;
+}
+
+.container {
+  max-width: 1200px;
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  padding: 50px;
+  border-radius: 2px;
+  min-height: 25%;
+  margin: 0 auto;
+}
+
+.heading {
+  color: #0b160a;
+  font-family: "Raleway", sans-serif;
+  text-decoration: underline;
+  margin-bottom: 3vh;
+}
+
+.column {
+  display: inline;
+}
+
+main #past,
+main #future {
+  background-color: #183014;
+  padding: 50px;
+  width: 100%;
+}
+
+main #past img,
+main #future img {
+  width: 300px;
+  float: left;
+  border-radius: 2%;
+  margin-right: 50px;
+}
+
+main #past p,
+main #future p,
+main #present p {
+  line-height: 2;
+}
+
+main #present img {
+  float: left;
+  width: 50%;
+  margin-right: 50px;
+}
+
+main #present .content {
+  padding: 25px 50px;
+}
+
+main #future {
+  background-image: url(/img/daniil-silantev-F6Da4r2x5to-unsplash.jpg);
+  clear: both;
+}
+
+footer {
+  background-color: #0b160a;
+  height: 50px;
+  text-align: center;
+}
+
+footer p {
+  color: #fff;
+  padding-top: 15px;
 }
