@@ -1,0 +1,135 @@
+/*Some general rules*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+/*Header styling*/
+img#logo {
+  display: block;
+  margin: 0 auto;
+  width: 15%;
+}
+
+ul#nav {
+  text-align: center;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+ul#nav li {
+  display: inline-block;
+  font-size: xx-large;
+  padding: 0 40px;
+}
+
+ul#nav a {
+  text-decoration: none;
+  color: #000;
+  padding-bottom: 10px;
+}
+
+ul#nav a:hover {
+  color: rgb(112, 5, 5);
+  border-bottom: 4px solid rgb(112, 5, 5);
+}
+
+/*Hero banner styling*/
+div#hero {
+  background-image: url("/img/hero_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 84vh;
+  padding-top: 20%;
+}
+
+h1 {
+  font-size: 4em;
+  padding-bottom: 20px;
+}
+
+div#welcomeCont {
+  background-color: rgba(112, 5, 5, 0.5);
+  width: 40%;
+  padding: 10px;
+  color: #ffffff;
+}
+
+div#welcomeCont input {
+  margin: 25px 0px 0px 0px;
+  padding: 5px 15px;
+  border: none;
+  color: #ffffff;
+  background-color: rgb(29, 29, 29);
+  font-family: "Quicksand", sans-serif;
+}
+
+div#welcomeCont input:hover {
+  color: rgb(112, 5, 5);
+  cursor: pointer;
+}
+
+/*Aboutus styling*/
+div#aboutUs {
+  padding: 50px 0px 200px 0;
+}
+
+.textContent h2 {
+  font-size: 2.5em;
+}
+
+.textContent {
+  display: inline-block;
+  width: 40%;
+}
+
+.contentIMG {
+  width: 600px;
+  float: right;
+}
+
+/*Footer styling*/
+footer {
+  width: 100%;
+  background-color: rgb(29, 29, 29);
+  padding-top: 30px;
+  color: #ffffff;
+}
+
+.input-label {
+  display: inline-block;
+  width: 150px;
+}
+
+div.input-group {
+  padding: 10px 0;
+}
+
+.row-line {
+  border-bottom: 1px dashed gray;
+  margin-bottom: 30px;
+}
+
+.clickable {
+  margin-right: 20px;
+}
+
+#other-text {
+  display: block;
+  margin-top: 15px;
+}

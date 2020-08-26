@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+
+    <header>
+      <img src="/img/logo.png" alt="logo" id="logo" />
+      <ul id="nav">
+        <li class="navItem"><a href="#home">Home</a></li>
+        <li class="navItem"><a href="#home">About us</a></li>
+        <li class="navItem"><a href="#home">Contact</a></li>
+      </ul>
+    </header>
+
+    <main>
+      <div id="hero">
+        <div class="container">
+          <div id="welcomeCont">
+            <h1>Welcome to our homepage</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque
+              laudantium quaerat laborum nobis delectus facere vitae praesentium
+              commodi necessitatibus! Est, quibusdam deleniti recusandae
+              necessitatibus beatae quo doloremque impedit inventore quasi!
+            </p>
+            <input type="button" value="READ MORE" />
+          </div>
+        </div>
+      </div>
+      <div id="aboutUs" class="container">
+        <div class="textContent">
+          <h2>About Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet ab
+            facilis obcaecati magnam alias vel praesentium veritatis hic
+            incidunt, nisi, totam expedita. Tenetur voluptate totam aut autem
+            dolorum vel aperiam.Veniam tempore officia cum odio similique quae
+            aspernatur obcaecati, ea deserunt? Consectetur quo aliquam ullam
+            autem nobis possimus, perspiciatis dicta, quis minus dolorum alias
+            nesciunt deserunt, assumenda voluptatibus facere et.
+          </p>
+        </div>
+        <img src="/img/aboutus.jpg" alt="aboutus_cover" class="contentIMG" />
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <h3>Contact Us</h3>
+        <form action="send">
+          <div class="input-group">
+            <label for="" class="input-label">First name</label
+            ><input type="text" />
+          </div>
+          <div class="input-group">
+            <label for="" class="input-label">Last name</label
+            ><input type="text" />
+          </div>
+          <div class="input-group row-line">
+            <label for="" class="input-label">Email</label><input type="text" />
+          </div>
+
+          <b>Do you want to join our newsletter?</b>
+          <div class="input-group">
+            <input type="radio" class="clickable" />
+            <label for="">Yes</label>
+          </div>
+          <div class="input-group row-line">
+            <input type="radio" class="clickable" />
+            <label for="">No</label>
+          </div>
+
+          <b>How did you find us?</b>
+          <div class="input-group">
+            <input type="checkbox" class="clickable" />
+            <label for="">Friend told me</label>
+          </div>
+
+          <div class="input-group">
+            <input type="checkbox" class="clickable" />
+            <label for="">Found in the internet</label>
+          </div>
+
+          <div class="input-group">
+            <input type="checkbox" class="clickable" />
+            <label for="">Saw in social media</label>
+          </div>
+
+          <div class="input-group">
+            <input
+              type="checkbox"
+              class="clickable"
+              name="checkbox-other"
+              id="checkbox-other"
+            />
+            <label for="checkbox-other">Other:</label>
+            <textarea
+              name="textarea"
+              id="other-text"
+              cols="30"
+              rows="10"
+              readonly
+            >
+How?</textarea
+            >
+          </div>
+        </form>
+      </div>
+    </footer>
+
+    <script src="main.js" async defer></script>
+  </body>
+</html>
