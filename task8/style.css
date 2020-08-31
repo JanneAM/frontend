@@ -1,0 +1,61 @@
+body {
+  background-color: aqua;
+  text-align: center;
+}
+
+h1 {
+  color: brown;
+  font-size: 8rem;
+}
+
+h1::after {
+  content: "tiniest screen";
+}
+
+@media (min-width: 576px) {
+  body {
+    background-color: brown;
+  }
+  h1 {
+    color: aqua;
+  }
+  h1::after {
+    content: "tiny screen";
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    background-color: yellowgreen;
+  }
+  h1 {
+    color: purple;
+  }
+  h1::after {
+    content: "small screen";
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    background-color: burlywood;
+  }
+  h1 {
+    color: palevioletred;
+  }
+  h1::after {
+    content: "medium screen";
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    background-color: blue;
+  }
+  h1 {
+    color: red;
+  }
+  h1::after {
+    content: "large screen";
+  }
+}
