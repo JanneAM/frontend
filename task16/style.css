@@ -1,0 +1,125 @@
+:root {
+  --font: "Quicksand", sans-serif;
+  --light-color: azure;
+  --dark-color: darkblue;
+  --underline-color: white;
+  --gradient: linear-gradient(
+    to right top,
+    #230537,
+    #bc5fc9,
+    #6737c0,
+    #0003bf,
+    #12a6eb
+  );
+}
+
+body {
+  background: var(--gradient);
+  font-family: var(--font);
+  height: 100vh;
+}
+
+.card {
+  height: 15rem;
+  width: 10rem;
+  margin: 2rem auto;
+  background: var(--light-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  box-shadow: 0 0 5px var(--dark-color);
+  transition: all 2s;
+  margin-bottom: 2rem;
+}
+
+.card:hover {
+  transform: rotate(360deg);
+}
+
+/* Circle animation */
+
+.circle {
+  background: var(--light-color);
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 0 5px var(--dark-color);
+  animation: example;
+  animation-duration: 4s;
+  animation-iteration-count: 3;
+  position: relative;
+}
+
+@keyframes example {
+  0% {
+    top: 0;
+    left: 0;
+    background: black;
+  }
+  25% {
+    top: 0;
+    left: 200px;
+    background: grey;
+  }
+  50% {
+    top: 200px;
+    left: 200px;
+    background: white;
+  }
+  75% {
+    top: 200px;
+    left: 0;
+    background: teal;
+  }
+  100% {
+    top: 0;
+    left: 0;
+    background: skyblue;
+  }
+}
+
+.simple,
+.advanced {
+  text-align: center;
+  height: 150px;
+}
+
+h1 {
+  display: inline-block;
+  position: relative;
+  padding: 1rem;
+  text-align: center;
+}
+
+.simple h1::after {
+  content: "";
+  height: 4px;
+  width: 0;
+  display: block;
+  background: var(--underline-color);
+  transition: 1s ease-in all;
+}
+
+.simple:hover h1::after {
+  width: 100%;
+}
+
+.advanced h1::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 200px;
+  left: 0;
+  bottom: 0;
+  border-left: 3px solid var(--underline-color);
+  transition: all 1s;
+}
+.advanced:hover h1::before {
+  top: 0;
+}

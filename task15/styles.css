@@ -1,0 +1,95 @@
+/*General styling*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "FinlandicaBold";
+  src: url("assets/finlandica-boldWeb.woff2") format("woff2"),
+    url("assets/finlandica-boldWeb.woff") format("woff"),
+    url("assets/finlandica-boldWeb.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Finlandica";
+  src: url("assets/finlandica-regularWeb.woff2") format("woff2"),
+    url("assets/finlandica-regularWeb.woff") format("woff"),
+    url("assets/finlandica-regularWeb.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --blue-color: #1542a2;
+  --light-gray: #dfdfdf;
+  --basic-padding: 1rem;
+}
+
+body {
+  background-color: var(--light-gray);
+  font-family: "Finlandica", Fallback, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+#container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/*Header*/
+
+.logo-text {
+  color: var(--blue-color);
+  text-transform: uppercase;
+}
+#logo-banner {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+#logo-banner a {
+  padding: var(--basic-padding);
+}
+/*Navigation*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--blue-color);
+  padding: 0 var(--basic-padding);
+}
+
+nav li {
+  text-align: center;
+  height: 3rem;
+}
+
+nav img {
+  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+}
+
+nav li {
+  display: inline-block;
+  border-bottom: 2px solid none;
+  padding: 0 var(--basic-padding);
+}
+
+nav li:hover {
+  border-bottom: 2px solid white;
+}
+
+nav a {
+  color: white;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  padding-top: 1rem;
+}

@@ -12,6 +12,7 @@ body {
 .container {
   width: 60%;
   margin: 0 auto;
+  padding: 1rem;
 }
 
 p {
@@ -50,12 +51,13 @@ ul#nav a:hover {
 
 /*Hero banner styling*/
 div#hero {
-  background-image: url("/img/hero_bg.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  height: 84vh;
-  padding-top: 20%;
+  background: url(https://source.unsplash.com/featured/?sky) no-repeat center
+    center/cover;
+  height: 75vh;
+}
+
+#hero .container {
+  padding-top: 100px;
 }
 
 h1 {
@@ -65,7 +67,7 @@ h1 {
 
 div#welcomeCont {
   background-color: rgba(112, 5, 5, 0.5);
-  width: 40%;
+  width: 70%;
   padding: 10px;
   color: #ffffff;
 }
@@ -86,7 +88,7 @@ div#welcomeCont input:hover {
 
 /*Aboutus styling*/
 div#aboutUs {
-  padding: 50px 0px 200px 0;
+  padding: 50px 50px 100px 0;
 }
 
 .textContent h2 {
@@ -94,13 +96,18 @@ div#aboutUs {
 }
 
 .textContent {
-  display: inline-block;
   width: 40%;
+  float: left;
+  padding-bottom: 50px;
 }
 
 .contentIMG {
-  width: 600px;
+  width: 40%;
   float: right;
+}
+
+.clearfix {
+  clear: both;
 }
 
 /*Footer styling*/

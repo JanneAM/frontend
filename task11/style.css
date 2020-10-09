@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+.text {
+  padding: 1rem;
+  color: grey;
+  background-color: lightgray;
+  margin: 1rem;
+}
+
+.text:nth-child(even) {
+  color: black;
+  background-color: teal;
+}
+
+.text:nth-child(2) {
+  color: black;
+  background-color: lightblue;
+  position: relative;
+  top: 40px;
+  left: 40px;
+}
+
+.text:nth-child(3) {
+  color: green;
+  background-color: yellow;
+  position: absolute;
+  top: 0;
+}
+
+.text:nth-child(1) {
+  position: sticky;
+  top: 70px;
+  background-color: orange;
+  color: #333;
+}
+
+i {
+  color: firebrick;
+  font-size: 4rem;
+  padding: 2rem;
+}
+.container {
+  height: 100vh;
+}
